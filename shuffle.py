@@ -34,8 +34,7 @@ def get_playlist(playlists):
             urls.append(url)
     return urls
 
-
-playlists = ['https://youtube.com/playlist?list=PLAPBphXHUHEy7tWxyI0D_AzWV4yrREoeM&si=y22qnzmiAblSA7Ud']
+playlists = []
 video_links = get_playlist(playlists)
 numpy.random.shuffle(video_links)
 
